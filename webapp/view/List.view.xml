@@ -4,8 +4,7 @@
     displayBlock="true"
     xmlns="sap.m"
 >
-    <Page items="{i18n>ListTitle}">
-        <Text text="at least im here"/>
+    <Page title="{i18n>ListTitle}">
         <List id="list" items="{/Products}">
             <StandardListItem 
                 type="Navigation" 
