@@ -1,0 +1,17 @@
+<mvc.View 
+    controllerName="sap.btp.sapui5.controller.List"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page items="{i18n>ListTitle}">
+        <Text text="at least im here"/>
+        <List id="list" items="{/Products}">
+            <StandardListItem 
+                type="Navigation" 
+                press="handleListItemPress"
+                title="{ProductName}"/>
+        </List>
+    </Page>   
+    
+</mvc.View>

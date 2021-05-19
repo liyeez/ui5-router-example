@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="sap.btp.sapui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+            <Button 
+				icon="sap-icon://sap-ui5"
+				text="Go!"
+				press=".onPress"
+				type="Emphasized"
+				class="sapUiSmallMargin"
+				/>
+		</App>
+	</Shell>
+</mvc:View>
